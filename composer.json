@@ -13,6 +13,12 @@
     "require": {
         "yiisoft/yii2": "*"
     },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/GrandMasterX/yii2-turbosms.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "sms\\turbosms\\": ""
