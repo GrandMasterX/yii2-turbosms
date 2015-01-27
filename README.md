@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \sms\turbosms\AutoloadExample::widget(); ?>```
+<?= \sms\turbosms\TurboSMS->SendSms($number, $text);
